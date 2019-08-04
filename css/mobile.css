@@ -1,0 +1,59 @@
+#navbar .logo{
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+#what .items{
+    display: block;
+
+  }
+
+
+#what .items .item{
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+#what .items .item i{
+   margin-right: 1.2rem;
+   margin-bottom: 0;
+}
+
+#contact .map{
+    display: none;
+}
+
+@media(max-width:500px){
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar .logo{
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    #navbar ul{
+        padding: 0.5rem;
+    }
+
+    #showcase .showcase-content{
+        top: 110px;
+        text-align: center;
+    }
+
+    #who .who-img{
+        display: none;
+    }
+
+    #clients .items img{
+        width: 85%;
+    }
+
+    #contact .map{
+        display: none;
+    }
+
+}
